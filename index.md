@@ -1,37 +1,210 @@
-## Welcome to GitHub Pages
+/* Economic Axes */
+#econ-a, #econ-b , #econ-c, #econ-d, #econ-e {
+  border: 3px solid #000000;
+  width: 70%;
+  height: 30px;
+  background: #FFFACD;
+  color: #CD5C5C;
+}      
+#econ-a::-webkit-progress-value, #econ-b::-webkit-progress-value, #econ-c::-webkit-progress-value, #econ-d::-webkit-progress-value, #econ-e::-webkit-progress-value {
+    background: #FFFACD;   
+}  
+#econ-a::-moz-progress-bar, #econ-b::-moz-progress-bar, #econ-c::-moz-progress-bar, #econ-d::-moz-progress-bar, #econ-e::-moz-progress-bar {
+    background: #CD5C5C;   
+}  
+#econ-a::-webkit-progress-value, #econ-b::-webkit-progress-value, #econ-c::-webkit-progress-value, #econ-d::-webkit-progress-value, #econ-e::-webkit-progress-value {
+    background: #FFFACD;  
+}  
+#econ-a::-webkit-progress-bar, #econ-b::-webkit-progress-bar, #econ-c::-webkit-progress-bar, #econ-d::-webkit-progress-bar, #econ-e::-webkit-progress-bar {
+    background: #CD5C5C;    
+} 
 
-You can use the [editor on GitHub](https://github.com/policycompasstest/policycompasstest/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+/* Governmental Axes */
+#govt-a, #govt-b , #govt-c, #govt-d, #govt-e {
+  border: 3px solid #000000;
+  width: 70%;
+  height: 30px;
+  background: #FFE4B5;
+  color: #6ebbfa;
+}      
+#govt-a::-webkit-progress-value, #govt-b::-webkit-progress-value, #govt-c::-webkit-progress-value, #govt-d::-webkit-progress-value, #govt-e::-webkit-progress-value {
+    background: #FFE4B5;   
+}  
+#govt-a::-moz-progress-bar, #govt-b::-moz-progress-bar, #govt-c::-moz-progress-bar, #govt-d::-moz-progress-bar, #govt-e::-moz-progress-bar {
+    background: #6ebbfa;   
+}  
+#govt-a::-webkit-progress-value, #govt-b::-webkit-progress-value, #govt-c::-webkit-progress-value, #govt-d::-webkit-progress-value, #govt-e::-webkit-progress-value {
+    background: #FFE4B5;  
+}  
+#govt-a::-webkit-progress-bar, #govt-b::-webkit-progress-bar, #govt-c::-webkit-progress-bar, #govt-d::-webkit-progress-bar, #govt-e::-webkit-progress-bar {
+    background: #6ebbfa;    
+} 
 
-### Markdown
+/* Diplomatic Axes */
+#dipl-a, #dipl-b , #dipl-c, #dipl-d, #dipl-e {
+  border: 3px solid #000000;
+  width: 70%;
+  height: 30px;
+  background: #AFEEEE;
+  color: #B0C4DE;
+}      
+#dipl-a::-webkit-progress-value, #dipl-b::-webkit-progress-value, #dipl-c::-webkit-progress-value, #dipl-d::-webkit-progress-value, #dipl-e::-webkit-progress-value {
+    background: #AFEEEE;   
+}  
+#dipl-a::-moz-progress-bar, #dipl-b::-moz-progress-bar, #dipl-c::-moz-progress-bar, #dipl-d::-moz-progress-bar, #dipl-e::-moz-progress-bar {
+    background: #B0C4DE;   
+}  
+#dipl-a::-webkit-progress-value, #dipl-b::-webkit-progress-value, #dipl-c::-webkit-progress-value, #dipl-d::-webkit-progress-value, #dipl-e::-webkit-progress-value {
+    background: #AFEEEE;  
+}  
+#dipl-a::-webkit-progress-bar, #dipl-b::-webkit-progress-bar, #dipl-c::-webkit-progress-bar, #dipl-d::-webkit-progress-bar, #dipl-e::-webkit-progress-bar {
+    background: #B0C4DE;    
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+/* Societal Axes */
+#scty-a, #scty-b , #scty-c, #scty-d, #scty-e {
+  border: 3px solid #000000;
+  width: 70%;
+  height: 30px;
+  background: #6B8E23;
+  color: #D8BFD8;
+}      
+#scty-a::-webkit-progress-value, #scty-b::-webkit-progress-value, #scty-c::-webkit-progress-value, #scty-d::-webkit-progress-value, #scty-e::-webkit-progress-value {
+    background: #6B8E23;   
+}  
+#scty-a::-moz-progress-bar, #scty-b::-moz-progress-bar, #scty-c::-moz-progress-bar, #scty-d::-moz-progress-bar, #scty-e::-moz-progress-bar {
+    background: #D8BFD8;   
+}  
+#scty-a::-webkit-progress-value, #scty-b::-webkit-progress-value, #scty-c::-webkit-progress-value, #scty-d::-webkit-progress-value, #scty-e::-webkit-progress-value {
+    background: #6B8E23;  
+}  
+#scty-a::-webkit-progress-bar, #scty-b::-webkit-progress-bar, #scty-c::-webkit-progress-bar, #scty-d::-webkit-progress-bar, #scty-e::-webkit-progress-bar {
+    background: #D8BFD8;    
+}
 
-```markdown
-Syntax highlighted code block
+/* Technological Axes */
+#tech-a, #tech-b , #tech-c, #tech-d, #tech-e {
+  border: 3px solid #000000;
+  width: 70%;
+  height: 30px;
+  background: #808000;
+  color: #ADD8E6;
+}      
+#tech-a::-webkit-progress-value, #tech-b::-webkit-progress-value, #tech-c::-webkit-progress-value, #tech-d::-webkit-progress-value, #tech-e::-webkit-progress-value {
+    background: #808000;   
+}  
+#tech-a::-moz-progress-bar, #tech-b::-moz-progress-bar, #tech-c::-moz-progress-bar, #tech-d::-moz-progress-bar, #tech-e::-moz-progress-bar {
+    background: #ADD8E6;   
+}  
+#tech-a::-webkit-progress-value, #tech-b::-webkit-progress-value, #tech-c::-webkit-progress-value, #tech-d::-webkit-progress-value, #tech-e::-webkit-progress-value {
+    background: #808000;  
+}  
+#tech-a::-webkit-progress-bar, #tech-b::-webkit-progress-bar, #tech-c::-webkit-progress-bar, #tech-d::-webkit-progress-bar, #tech-e::-webkit-progress-bar {
+    background: #ADD8E6;    
+}
 
-# Header 1
-## Header 2
-### Header 3
+/* Law Axes */
+#law-a, #law-b , #law-c, #law-d, #law-e {
+  border: 3px solid #000000;
+  width: 70%;
+  height: 30px;
+  background: #A3E4D7;
+  color: #F5EEF8;
+}      
+#law-a::-webkit-progress-value, #law-b::-webkit-progress-value, #law-c::-webkit-progress-value, #law-d::-webkit-progress-value, #law-e::-webkit-progress-value {
+    background: #A3E4D7;   
+}  
+#law-a::-moz-progress-bar, #law-b::-moz-progress-bar, #law-c::-moz-progress-bar, #law-d::-moz-progress-bar, #law-e::-moz-progress-bar {
+    background: #F5EEF8;   
+}  
+#law-a::-webkit-progress-value, #law-b::-webkit-progress-value, #law-c::-webkit-progress-value, #law-d::-webkit-progress-value, #law-e::-webkit-progress-value {
+    background: #A3E4D7;  
+}  
+#law-a::-webkit-progress-bar, #law-b::-webkit-progress-bar, #law-c::-webkit-progress-bar, #law-d::-webkit-progress-bar, #law-e::-webkit-progress-bar {
+    background: #F5EEF8;    
+}
 
-- Bulleted
-- List
+/* Cultural Axes */
+#cltr-a, #cltr-b , #cltr-c, #cltr-d, #cltr-e {
+  border: 3px solid #000000;
+  width: 70%;
+  height: 30px;
+  background: #5499C7;
+  color: #F5B7B1;
+}      
+#cltr-a::-webkit-progress-value, #cltr-b::-webkit-progress-value, #cltr-c::-webkit-progress-value, #cltr-d::-webkit-progress-value, #cltr-e::-webkit-progress-value {
+    background: #5499C7;   
+}  
+#cltr-a::-moz-progress-bar, #cltr-b::-moz-progress-bar, #cltr-c::-moz-progress-bar, #cltr-d::-moz-progress-bar, #cltr-e::-moz-progress-bar {
+    background: #F5B7B1;   
+}  
+#cltr-a::-webkit-progress-value, #cltr-b::-webkit-progress-value, #cltr-c::-webkit-progress-value, #cltr-d::-webkit-progress-value, #cltr-e::-webkit-progress-value {
+    background: #5499C7;  
+}  
+#cltr-a::-webkit-progress-bar, #cltr-b::-webkit-progress-bar, #cltr-c::-webkit-progress-bar, #cltr-d::-webkit-progress-bar, #cltr-e::-webkit-progress-bar {
+    background: #F5B7B1;    
+}
 
-1. Numbered
-2. List
+/* Procedural Axes */
+#proc-a, #proc-b , #proc-c, #proc-d, #proc-e {
+  border: 3px solid #000000;
+  width: 70%;
+  height: 30px;
+  background: #DEB887;
+  color: #DDA0DD;
+}      
+#proc-a::-webkit-progress-value, #proc-b::-webkit-progress-value, #proc-c::-webkit-progress-value, #proc-d::-webkit-progress-value, #proc-e::-webkit-progress-value {
+    background: #DEB887;   
+}  
+#proc-a::-moz-progress-bar, #proc-b::-moz-progress-bar, #proc-c::-moz-progress-bar, #proc-d::-moz-progress-bar, #proc-e::-moz-progress-bar {
+    background: #DDA0DD;   
+}  
+#proc-a::-webkit-progress-value, #proc-b::-webkit-progress-value, #proc-c::-webkit-progress-value, #proc-d::-webkit-progress-value, #proc-e::-webkit-progress-value {
+    background: #DEB887;  
+}  
+#proc-a::-webkit-progress-bar, #proc-b::-webkit-progress-bar, #proc-c::-webkit-progress-bar, #proc-d::-webkit-progress-bar, #proc-e::-webkit-progress-bar {
+    background: #DDA0DD;    
+}
 
-**Bold** and _Italic_ and `Code` text
+/* Political Axes */
+#pol-a, #pol-b , #pol-c, #pol-d, #pol-e {
+  border: 3px solid #000000;
+  width: 70%;
+  height: 30px;
+  background: #CD853F;
+  color: #A9A9A9;
+}      
+#pol-a::-webkit-progress-value, #pol-b::-webkit-progress-value, #pol-c::-webkit-progress-value, #pol-d::-webkit-progress-value, #pol-e::-webkit-progress-value {
+    background: #CD853F;   
+}  
+#pol-a::-moz-progress-bar, #pol-b::-moz-progress-bar, #pol-c::-moz-progress-bar, #pol-d::-moz-progress-bar, #pol-e::-moz-progress-bar {
+    background: #A9A9A9;   
+}  
+#pol-a::-webkit-progress-value, #pol-b::-webkit-progress-value, #pol-c::-webkit-progress-value, #pol-d::-webkit-progress-value, #pol-e::-webkit-progress-value {
+    background: #CD853F;  
+}  
+#pol-a::-webkit-progress-bar, #pol-b::-webkit-progress-bar, #pol-c::-webkit-progress-bar, #pol-d::-webkit-progress-bar, #pol-e::-webkit-progress-bar {
+    background: #A9A9A9;    
+}
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/policycompasstest/policycompasstest/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+/* Moral Axes */
+#mor-a, #mor-b , #mor-c, #mor-d, #mor-e {
+  border: 3px solid #000000;
+  width: 70%;
+  height: 30px;
+  background: #222222;
+  color: #a9a9a9;
+}      
+#mor-a::-webkit-progress-value, #mor-b::-webkit-progress-value, #mor-c::-webkit-progress-value, #mor-d::-webkit-progress-value, #mor-e::-webkit-progress-value {
+    background: #222222;   
+}  
+#mor-a::-moz-progress-bar, #mor-b::-moz-progress-bar, #mor-c::-moz-progress-bar, #mor-d::-moz-progress-bar, #mor-e::-moz-progress-bar {
+    background: #a9a9a9;   
+}  
+#mor-a::-webkit-progress-value, #mor-b::-webkit-progress-value, #mor-c::-webkit-progress-value, #mor-d::-webkit-progress-value, #mor-e::-webkit-progress-value {
+    background: #222222;  
+}  
+#mor-a::-webkit-progress-bar, #mor-b::-webkit-progress-bar, #mor-c::-webkit-progress-bar, #mor-d::-webkit-progress-bar, #mor-e::-webkit-progress-bar {
+    background: #a9a9a9;    
+}
