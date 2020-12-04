@@ -25,7 +25,7 @@ questions =  [
     {"id": 23, "question": "The government should be less involved in the day to day life of its citizens.", "effects": {"auth": -1}},
     {"id": 24, "question": "Foreign aid should be sent to countries in need.", "effects": {"right": -1}},
     {"id": 25, "question": "Jury nullification should be made legal.", "effects": {"auth": -1}},
-    {"id": 26, "question": "Our military budget should be largely reduced and we should stop meddling in the wars or conflicts of other nations.", "effects": {"auth": -1}}, "effects": {"right": 1}},
+    {"id": 26, "question": "Our military budget should be largely reduced and we should stop meddling in the wars or conflicts of other nations.", "effects": {"auth": -1}}
     {"id": 27, "question": "Convicted felons should not be allowed to purchase, own, or operate any firearm.", "effects": {"auth": 1}},
     {"id": 28, "question": "The police was not made to protect the people, but to uphold the status-quo by force.", "effects": {"auth": -1}},
     {"id": 29, "question": "State schools are a bad idea because our state shouldn't be influencing our children.", "effects": {"auth": -1}},
