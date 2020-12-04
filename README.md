@@ -1,1 +1,1 @@
-SapplyValues is a clone of the Sapply political compass, made to use 8values' UI.
+A simple political compass test with policy based questions, as opposed to vague economic beliefs or social values. What laws would you actually want to see passed, or repealed? Regardless of your personal opinions, how do you think government should operate?
